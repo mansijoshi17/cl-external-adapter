@@ -22,7 +22,7 @@ const createRequest = (input, callback) => {
   const validator = new Validator(callback, input, customParams);
   const jobRunID = validator.validated.id;
   const endpoint = validator.validated.data.endpoint || "send-email";
-  const url = `http://localhost:4000/wwl/${endpoint}`;
+  const url = `https://wwl-backend.onrender.com/wwl/${endpoint}`;
   const message = validator.validated.data.message;
   const reply_to = validator.validated.data.reply_to;
 
