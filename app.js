@@ -2,8 +2,6 @@ const createRequest = require("./index").createRequest;
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const emailjs = require("@emailjs/nodejs");
-const { config } = require("dotenv");
 const app = express();
 const port = 8080;
 
