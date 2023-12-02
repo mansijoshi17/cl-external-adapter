@@ -9,7 +9,9 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "@chainlink/external-adapter": "^0.2.3"
+    "@chainlink/external-adapter": "^0.2.3",
+    "@emailjs/nodejs": "^2.2.0",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
