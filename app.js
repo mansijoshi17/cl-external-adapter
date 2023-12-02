@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const emailjs = require("@emailjs/nodejs");
 const { config } = require("dotenv");
 const app = express();
-const port = process.env.EA_PORT || 8080;
+const port = 8080;
 
 config();
 
